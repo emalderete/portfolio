@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+.header-container-b {
+    height: 15rem;
+    width: 100%;
+    background-color: #565656;
+}
+
+.header-container-s {
+    height: 5rem;
+    width: 100%;
+    background-color: #b5eecd;
+}
+
+.photo-profile-container {
+    height: 13rem;
+    width: 13rem;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -10rem;
+}
+
+.photo-profile {
+    width: 100%;
+    border-radius: 100%;
+    padding: 4%;
+    background-color: #b5eecd;
+}
+
+.name-container {
+    margin-left: 45%;
+    padding-top: 8rem;
+}
+
+.name {
+    font-size: 240%;
+    font-family: 'Hubballi', cursive;
+    color: #b5eecd;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    justify-content: end;
+    padding-top: 0.5rem;
+}
+
+.navigation a {
+    padding: 1.2rem 2rem;
+    border-radius: 1.3rem;
+    margin-right: 2rem;
+    display: block;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.navigation a:hover {
+    background-color: #f0c3a2;
+    color: #2b2b2b;
+}
