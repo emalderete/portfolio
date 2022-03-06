@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
 .header-container-b {
     height: 15rem;
     width: 100%;
@@ -57,4 +58,38 @@
 .navigation a:hover {
     background-color: #f0c3a2;
     color: #2b2b2b;
+}
+
+.active {
+    background-color: #f0c3a2;
+    color: #2b2b2b;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container div {
+    background-color: #565656;
+    height: 16rem;
+    width: 70%;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-container div h3 {
+    color: #b5eecd;
+    width: 40%;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800;
+    font-size: 225%;
+}
+
+.main-container div p {
+    color: aliceblue;
+    width: 60%;
 }
