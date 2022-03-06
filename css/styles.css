@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
 .header-container-b {
-    height: 15rem;
+    height: 18rem;
     width: 100%;
     background-color: #565656;
 }
@@ -30,7 +30,7 @@
 
 .name-container {
     margin-left: 45%;
-    padding-top: 8rem;
+    padding-top: 11rem;
 }
 
 .name {
@@ -92,4 +92,37 @@
 .main-container div p {
     color: aliceblue;
     width: 60%;
+}
+
+.projects-container {
+    background-color: #e8ba86;
+    height: 40rem;
+    margin-top: 6rem;
+}
+
+.projects-container h3 {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    padding-top: 3rem;
+}
+
+.separator {
+    background: rgb(86, 86, 86);
+    background: linear-gradient(90deg, rgba(86, 86, 86, 0.2442110633315826) 0%, rgba(86, 86, 86, 1) 50%, rgba(86, 86, 86, 0.15737632943802526) 100%);
+    width: 65%;
+    height: 0.1rem;
+    margin-left: 17.5%;
+}
+
+.projects-container article {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.project-cards {
+    background-color: aliceblue;
+    width: 19rem;
+    height: 24rem;
+    margin: 3rem;
 }
