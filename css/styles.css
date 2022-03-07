@@ -11,6 +11,12 @@ body {
     background-color: #565656;
 }
 
+.fa-code {
+    font-size: 1800%;
+    position: absolute;
+    color: #3d3d3d;
+}
+
 .header-container-s {
     height: 5rem;
     width: 100%;
@@ -176,6 +182,13 @@ body {
 
 .icons {
     font-size: 600%;
+    transition: 500ms;
+    filter: drop-shadow(0px 0px 10px #3a3a3a);
+}
+
+.icons:hover {
+    font-size: 800%;
+    filter: drop-shadow(0px 30px 3px #000000);
 }
 
 .subtitles {
@@ -207,4 +220,41 @@ body {
 
 .fa-node {
     color: #63b649;
+}
+
+.footer-top {
+    width: 100%;
+    height: 4rem;
+    background-color: #b5eecd;
+    font-family: 'League Spartan', sans-serif;
+    color: #565656;
+    display: flex;
+    align-items: center;
+}
+
+.footer-top h3 {
+    margin-left: 17rem;
+}
+
+.footer-top a {
+    margin: 0 4rem;
+    font-size: 200%;
+    justify-content: center;
+}
+
+.social {
+    width: 2.5rem;
+    filter: drop-shadow(-4px 1px 6px #424242);
+}
+
+.fa-github {
+    font-size: 2.5rem;
+    margin-top: 0.8rem;
+    color: #7c2ada;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 10rem;
+    background-color: #565656;
 }
