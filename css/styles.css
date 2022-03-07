@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+body {
+    background-attachment: fixed;
+}
+
 .header-container-b {
     height: 18rem;
     width: 100%;
@@ -125,4 +129,82 @@
     width: 19rem;
     height: 24rem;
     margin: 3rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container-inner {
+    margin: 6rem 3rem;
+    width: 85%;
+    height: 40rem;
+    background-color: #565656;
+}
+
+.skills-container-inner h3 {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'League Spartan', sans-serif;
+    color: #b5eecd;
+}
+
+.separator-b {
+    background: #b5eecd;
+    background: linear-gradient(90deg, rgba(86, 86, 86, 0.2442110633315826) 0%, #b5eecd 50%, rgba(86, 86, 86, 0.15737632943802526) 100%);
+    width: 65%;
+    height: 0.1rem;
+    margin-left: 17.5%;
+}
+
+.skillset {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0rem 5rem;
+}
+
+.skillset div {
+    width: 8rem;
+    height: 8rem;
+    margin: 4rem 6.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icons {
+    font-size: 600%;
+}
+
+.subtitles {
+    font-size: 150%;
+    font-family: 'League Spartan', sans-serif;
+    color: #b5eecd;
+    margin-top: 1rem;
+}
+
+.fa-html5 {
+    color: #e45a3f;
+}
+
+.fa-css3 {
+    color: #01aeea;
+}
+
+.fa-js-square {
+    color: #ead41c;
+}
+
+.fa-bootstrap {
+    color: #7d11f0;
+}
+
+.fa-react {
+    color: #00d6fe;
+}
+
+.fa-node {
+    color: #63b649;
 }
