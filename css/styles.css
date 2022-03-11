@@ -12,7 +12,7 @@ body {
     background-color: #565656;
 }
 
-.fa-code {
+#code-logo {
     font-size: 1800%;
     position: absolute;
     color: #494949;
@@ -22,6 +22,11 @@ body {
     height: 5rem;
     width: 100%;
     background-color: #b5eecd;
+}
+
+.phantom-container {
+    height: 5rem;
+    width: 100%;
 }
 
 .photo-profile-container {
