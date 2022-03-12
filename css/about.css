@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+.header-container-s {
+    background-color: #f18593;
+}
+
+.photo-profile {
+    background-color: #f18593;
+}
+
+.name {
+    color: #f18593;
+}
+
+.info-container {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.who {
+    font-family: 'lobster', cursive;
+    font-size: 250%;
+    width: 50%;
+}
+
+.me {
+    width: 50%;
+}
+
+.text {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.footer-top {
+    background-color: #f18593;
+}
+
+.footer-subtitle {
+    color: #f18593;
+}
