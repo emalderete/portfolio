@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
 body {
+    background-image: url(../img/ui/background.jpg);
+    background-size: cover;
     background-attachment: fixed;
-    background-position: 100%;
 }
 
 .header-container-b {
