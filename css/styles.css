@@ -22,6 +22,46 @@ body {
     height: 5rem;
     width: 100%;
     background-color: #b5eecd;
+    transition: 200ms;
+}
+
+.navigation-brand {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 230ms;
+    position: absolute;
+}
+
+.opacity {
+    opacity: 1;
+}
+
+.navigation-brand span {
+    margin-left: 1rem;
+}
+
+.code-minilogo {
+    background-color: #565656;
+    color: aliceblue;
+    padding: 1rem 0.8rem;
+    font-size: 250%;
+    border-radius: 100rem;
+    margin-top: 0.25rem;
+    margin-left: 1rem;
+}
+
+.mini-name {
+    height: 100%;
+    font-family: 'Hubballi', cursive;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: 700ms;
+}
+
+.effect-spacing-letter {
+    letter-spacing: -12px;
 }
 
 .phantom-container {
@@ -60,6 +100,7 @@ body {
     display: flex;
     justify-content: end;
     padding-top: 0.5rem;
+    width: 100%;
 }
 
 .navigation a {
