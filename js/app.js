@@ -24,7 +24,7 @@ function scrollingNavbar() {
 }
 
 // Esta función improvisada sirve unicamente para mostrar en consola las coordenadas sobre el eje Y del scroll del sitio.
-window.onscroll = () => {
-    let scrollY = window.scrollY;
-    console.log(scrollY);
-};
+// window.onscroll = () => {
+//     let scrollY = window.scrollY;
+//     console.log(scrollY);
+// };

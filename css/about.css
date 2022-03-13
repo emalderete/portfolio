@@ -4,6 +4,16 @@
     background-color: #f18593;
 }
 
+.active {
+    background-color: #565656;
+    color: aliceblue!important;
+}
+
+.navigation a:hover {
+    background-color: #565656;
+    color: aliceblue;
+}
+
 .photo-profile {
     background-color: #f18593;
 }
@@ -15,23 +25,140 @@
 .info-container {
     display: flex;
     width: 80%;
-    margin-left: 10%;
+    margin: 6rem 10%;
+    padding: 2rem 2%;
     justify-content: center;
+    align-items: center;
+    background: #a3a3a3;
+    background: linear-gradient(90deg, #a3a3a300 0%, #a3a3a34b 29%, #717171d2 89%);
+}
+
+.info-container-off {
+    display: flex;
+    width: 80%;
+    margin: 6rem 10%;
+    padding: 2rem 2%;
     align-items: center;
 }
 
-.who {
-    font-family: 'lobster', cursive;
-    font-size: 250%;
-    width: 50%;
+.graduate {
+    width: 20%;
+    position: absolute;
+    right: 1rem;
+    margin-top: 10rem;
+    transform: rotate(16deg);
 }
 
-.me {
-    width: 50%;
+.game {
+    font-size: 300%;
+    position: absolute;
+    left: 140px;
+    top: 670px;
+    transform: rotate(-25deg);
+}
+
+.chip {
+    font-size: 400%;
+    position: absolute;
+    left: 90px;
+    top: 580px;
+    transform: rotate(-5deg);
+}
+
+.code-demo {
+    font-size: 400%;
+    position: absolute;
+    left: 170px;
+    top: 500px;
+}
+
+.music {
+    font-size: 240%;
+    position: absolute;
+    left: 220px;
+    top: 710px;
+    transform: rotate(-5deg);
+}
+
+.links {
+    color: #f14c62;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #ace7eb;
+    background-color: #565656;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0rem;
+}
+
+.titles {
+    font-family: 'lobster', cursive;
+    font-size: 250%;
+    width: 40%;
+    color: #303030;
+    margin-left: 10%;
+}
+
+.text-container {
+    width: 60%;
 }
 
 .text {
+    color: #303030;
     font-family: 'League Spartan', sans-serif;
+    font-size: 120%;
+}
+
+.form-container {
+    background-color: #565656;
+    padding: 1rem 0rem;
+}
+
+.separator {
+    background: linear-gradient(90deg, rgba(86, 86, 86, 0.2442110633315826) 0%, rgb(236, 114, 114) 50%, rgba(86, 86, 86, 0.15737632943802526) 100%);
+}
+
+.form-title {
+    font-family: 'lobster', cursive;
+    color: #e2e2e2;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 20%;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form span {
+    margin-top: 1rem;
+}
+
+.contact-form button {
+    margin: 2rem 30%;
+    width: 40%;
+    height: 3rem;
+    border: none;
+    background-color: #f18593;
+    border-radius: 1rem;
+    transition: 300ms;
+}
+
+.contact-form button:hover {
+    background-color: #f14c62;
+    color: #e2e2e2;
+}
+
+.active-button {
+    background-color: #a13341!important;
 }
 
 .footer-top {
