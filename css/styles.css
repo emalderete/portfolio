@@ -154,6 +154,21 @@ body {
 .main-container div p {
     color: aliceblue;
     width: 60%;
+    padding: 0 2rem;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.links {
+    color: #f14c62;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #ace7eb;
+    background-color: #565656;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0rem;
 }
 
 .projects-container {

@@ -7,21 +7,15 @@ let codeLogo = document.querySelector(".code-minilogo");
 let home = document.querySelector(".item-home");
 let portfolio = document.querySelector(".item-port");
 let skills = document.querySelector(".item-skill");
-let about = document.querySelector(".item-about");
-let contact = document.querySelector(".item-contact");
-
 
 // Evento escuchador del scroll
-window.addEventListener('scroll', scrollingNavbar);
+window.addEventListener('scroll', activeFunctions);
 
 // Definiciones de funciones:
-// La función scrollingNavbar sirve para indicarle al navbar del documento como debe comportarse de acuerdo al scrolling del mouse.
-function scrollingNavbar() {
+// La función scrollingNavbarFixed sirve para indicarle al navbar del documento como debe comportarse de acuerdo al scrolling del mouse
+// y fijarse en la parte superior de la ventana.
+function scrollingNavbarFixed() {
     navbar.classList.toggle('fixed-top', window.scrollY > 290);
-    home.classList.toggle('active', window.scrollY >= 0 && window.scrollY < 648);
-    portfolio.classList.toggle('active', window.scrollY >= 648 && window.scrollY < 1384);
-    skills.classList.toggle('active', window.scrollY >= 1384);
-    // about.classList.toggle('active', window.scrollY >= 0);  ESTABAS INTENTANDO QUE EL SCROLL COLOQUE 'ACTIVE' EN LOS BOTONES DE LA PAGINA ABOUT
     if (window.scrollY > 290) {
         phantomContainer.classList.remove('d-none');
         brand.classList.add('opacity');
@@ -33,8 +27,31 @@ function scrollingNavbar() {
     }
 }
 
-// Esta función improvisada sirve unicamente para mostrar en consola las coordenadas sobre el eje Y del scroll del sitio.
-window.onscroll = () => {
-    let scrollY = window.scrollY;
-    console.log(scrollY);
-};
+// La función scrollingNavbarResponse le indica a los botones del Navbar cuando y como marcar qué botón está activo
+function scrollingNavbarResponse() {
+    home.classList.toggle('active', window.scrollY >= 0 && window.scrollY < 648);
+    portfolio.classList.toggle('active', window.scrollY >= 648 && window.scrollY < 1384);
+    skills.classList.toggle('active', window.scrollY >= 1384);
+}
+
+function activeFunctions() {
+    scrollingNavbarFixed();
+    scrollingNavbarResponse();
+}
+
+// Declaración y uso de funciones improvisadas para facilitar el trabajo.
+function showScrollOnConsole() {
+    window.onscroll = () => {
+        let scrollY = window.scrollY;
+        console.log(scrollY);
+    }
+}
+
+function ingnoreErrors() {
+    window.onerror = () => {
+        return true == true;
+    }
+}
+
+//showScrollOnConsole();
+//ingnoreErrors();

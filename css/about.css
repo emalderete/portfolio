@@ -80,19 +80,6 @@
     transform: rotate(-5deg);
 }
 
-.links {
-    color: #f14c62;
-    transition: 200ms;
-    text-decoration: none;
-}
-
-.links:hover {
-    color: #ace7eb;
-    background-color: #565656;
-    border-radius: 0.2rem;
-    padding: 0.2rem 0rem;
-}
-
 .titles {
     font-family: 'lobster', cursive;
     font-size: 250%;
