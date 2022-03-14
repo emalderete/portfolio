@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <a name="about"></a>
     <header>
         <section>
             <a name="home"></a>
@@ -34,12 +35,11 @@
                     </span>
                 </div>
                 <nav class="navigation">
-                    <a class="item" href="./index.html">Home <i class="fa-solid fa-square-arrow-up-right"></i></a>
-                    <a class="item" href="./index.html">Portfolio <i class="fa-solid fa-square-arrow-up-right"></i></a>
-                    <a class="item" href="./index.html">Habilidades <i
-                            class="fa-solid fa-square-arrow-up-right"></i></a>
-                    <a class="item active" href="#">Sobre mi</a>
-                    <a class="item" href="#">Contacto</a>
+                    <a class="item-nav" href="./index.html">Home <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    <a class="item-nav" href="./index.html">Portfolio <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    <a class="item-nav" href="./index.html">Habilidades <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    <a class="item-about" href="#about">Sobre mi</a>
+                    <a class="item-contact" href="#contact">Contacto</a>
                 </nav>
             </div>
             <div class="phantom-container d-none"></div>
@@ -110,6 +110,7 @@
                     </p>
                 </div>
             </div>
+            <a name="contact"></a>
         </section>
         <section class="form-container">
             <div class="form-container-child">
@@ -117,19 +118,19 @@
                 <div class="separator"></div>
                 <form class="contact-form">
                     <label for="name">
-                        <span>¿Cuál es tu nombre?</span>
-                        <input type="text" name="name" id="name" placeholder="Sebastian" required>
+                        <span class="input-focus-out">¿Cuál es tu nombre?</span>
+                        <input type="text" name="name" id="name" required>
                     </label>
                     <label for="mail">
-                        <span>Correo electrónico</span>
-                        <input type="email" name="mail" id="mail" placeholder="ejemplo@correo.com" required>
+                        <span class="input-focus-out">Correo electrónico</span>
+                        <input type="email" name="mail" id="mail"  required>
                     </label>
                     <label for="phone">
-                        <span>Número de teléfono</span>
-                        <input type="number" name="phone" id="phone" placeholder="código de país, código de area y número de teléfono por favor" required>
+                        <span class="input-focus-out">Número de teléfono</span>
+                        <input type="number" name="phone" id="phone" required>
                     </label>
                     <label for="message">
-                        <span>Escribe tu mensaje</span>
+                        <span class="input-focus-out">Escribe tu mensaje</span>
                         <textarea type="text" name="message" id="message" required></textarea>
                     </label>
                     <div>

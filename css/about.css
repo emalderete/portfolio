@@ -130,7 +130,7 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    margin: 2rem 20%;
+    margin: 2rem 27%;
 }
 
 .contact-form label {
@@ -140,6 +140,51 @@
 
 .contact-form span {
     margin-top: 1rem;
+    color: aliceblue;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.contact-form input,
+textarea {
+    background-color: #ffffff00;
+    outline: none;
+    transition: 180ms;
+    border-radius: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #e2e2e2;
+    transform: translateX(-0.4rem);
+}
+
+.contact-form input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.contact-form input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.input-focus-out {
+    transform: translateY(1.6rem);
+}
+
+.contact-form input:focus,
+textarea:focus {
+    border-left: solid;
+    border-left-color: #f14c62;
+    border-bottom-color: #f14c62;
+}
+
+#message {
+    height: 2rem;
+    transition: 250ms;
+}
+
+#message:focus {
+    height: 6rem;
 }
 
 .contact-form button {
@@ -155,10 +200,6 @@
 .contact-form button:hover {
     background-color: #f14c62;
     color: #e2e2e2;
-}
-
-.active-button {
-    background-color: #a13341!important;
 }
 
 .footer-top {
