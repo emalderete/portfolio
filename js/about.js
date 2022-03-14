@@ -25,8 +25,8 @@ function scrollingNavbarFixed() {
 }
 
 function scrollingNavbarResponse() {
-    about.classList.toggle('active', window.scrollY >= 0 && window.scrollY < 2463);
-    contact.classList.toggle('active', window.scrollY >= 2463);
+    about.classList.toggle('actived', window.scrollY >= 0 && window.scrollY < 2463);
+    contact.classList.toggle('actived', window.scrollY >= 2463);
 }
 
 // window.onscroll = () => {

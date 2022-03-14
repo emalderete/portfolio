@@ -34,7 +34,7 @@
                     </span>
                 </div>
                 <nav class="navigation">
-                    <a class="item-home active" href="#home">Home</a>
+                    <a class="item-home actived" href="#home">Home</a>
                     <a class="item-port" href="#portfolio">Portfolio</a>
                     <a class="item-skill" href="#habilidades">Habilidades</a>
                     <a class="item" href="./about.html">Acerca de mi <i class="fa-solid fa-square-arrow-up-right"></i></a>
@@ -60,7 +60,17 @@
             <div class="separator"></div>
             <article>
                 <div class="project-cards">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur, ratione sit ipsum molestias autem rem voluptatum numquam maiores aperiam nemo, animi quasi! Quas assumenda, veniam autem illo dolore consectetur?</p>
+                    <!-- Button trigger modal -->
+                    <a type="button" class="project" data-bs-toggle="modal" data-bs-target="#project1">
+                        <div>
+                            <img src="./img/image/project1-1.jpg">
+                        </div>
+                        <h4>Blog acerca de programación</h4>
+                        <div>
+                            <p>Se trata de un proyecto evaluativo que he realizado en equipo con algunos compañeros del instituto.</p>
+                        </div>
+                        <p class="mini-button">Pulsar para más info...</p>
+                    </a>
                 </div>
                 <div class="project-cards">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem debitis, sequi perspiciatis facilis cupiditate cumque quos eius ad. Laborum consectetur architecto ut iure suscipit sed reiciendis id, ducimus vero veritatis!</p>
@@ -122,6 +132,85 @@
             </article>
         </section>
     </footer>
+    <!-- Modal project 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Behind The Code</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal project 2 -->
+    <div class="modal fade" id="project2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal project 3 -->
+    <div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="./js/app.js"></script>
 <script src="./js/popper.min.js"></script>

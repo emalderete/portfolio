@@ -29,9 +29,9 @@ function scrollingNavbarFixed() {
 
 // La función scrollingNavbarResponse le indica a los botones del Navbar cuando y como marcar qué botón está activo
 function scrollingNavbarResponse() {
-    home.classList.toggle('active', window.scrollY >= 0 && window.scrollY < 648);
-    portfolio.classList.toggle('active', window.scrollY >= 648 && window.scrollY < 1384);
-    skills.classList.toggle('active', window.scrollY >= 1384);
+    home.classList.toggle('actived', window.scrollY >= 0 && window.scrollY < 648);
+    portfolio.classList.toggle('actived', window.scrollY >= 648 && window.scrollY < 1384);
+    skills.classList.toggle('actived', window.scrollY >= 1384);
 }
 
 function activeFunctions() {

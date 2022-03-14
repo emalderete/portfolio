@@ -119,7 +119,7 @@ body {
     margin: 0 0.5rem!important;
 }
 
-.active {
+.actived {
     background-color: #f0c3a2;
     color: #2b2b2b;
     transition: 400ms;
@@ -183,6 +183,31 @@ body {
     padding-top: 3rem;
 }
 
+.project {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.project h4,
+p {
+    color: #2b2b2b;
+    margin: 2.5%;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.project div img {
+    width: 95%;
+    margin: 2.5%;
+}
+
+.mini-button {
+    text-align: end;
+    margin-top: 2.7rem;
+    margin-right: 0.5rem;
+    color: #f14c62;
+}
+
 .separator {
     background: rgb(86, 86, 86);
     background: linear-gradient(90deg, rgba(86, 86, 86, 0.2442110633315826) 0%, rgba(86, 86, 86, 1) 50%, rgba(86, 86, 86, 0.15737632943802526) 100%);
@@ -202,6 +227,7 @@ body {
     width: 19rem;
     height: 24rem;
     margin: 3rem;
+    box-shadow: 0px 2px 10px rgb(56, 56, 56);
 }
 
 .skills-container {
