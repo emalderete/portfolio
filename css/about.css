@@ -101,6 +101,7 @@
 .form-container {
     background-color: #565656;
     padding: 1rem 0rem;
+    margin-bottom: 5rem;
 }
 
 .separator {
@@ -161,17 +162,13 @@ input[type=number]::-webkit-outer-spin-button {
 .contact-form input:focus,
 textarea:focus {
     border-left: solid;
-    border-left-color: #f14c62;
+    border-left-color: #f14c62!important;
     border-bottom-color: #f14c62;
 }
 
 #message {
-    height: 2rem;
+    border-left: solid;
     transition: 250ms;
-}
-
-#message:focus {
-    height: 6rem;
 }
 
 .contact-form button {

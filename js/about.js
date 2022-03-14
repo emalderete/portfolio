@@ -3,19 +3,12 @@ let miniName = document.querySelector(".mini-name");
 let brand = document.querySelector(".navigation-brand");
 let about = document.querySelector(".item-nav-about");
 let contact = document.querySelector(".item-nav-contact");
-let home = document.querySelector(".item-nav-home");
 
 window.addEventListener('scroll', activeFunctions);
-home.addEventListener('click', replace);
 
 function activeFunctions() {
     scrollingNavbarFixed();
     scrollingNavbarResponse();
-}
-
-function replace() {
-    location.replace = 'http://127.0.0.1:5500';
-    window.scrollTo(0, 600);
 }
 
 function scrollingNavbarFixed() {
