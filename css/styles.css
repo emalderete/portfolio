@@ -214,6 +214,10 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
+#mini-button-project2 {
+    margin-top: 14%;
+}
+
 .cross-button-light {
     color: aliceblue!important;
     background-color: #00000000;
@@ -270,6 +274,35 @@ body {
     background-color: #b5eecd!important;
     border-color: #3a3a3a00!important;
     color: #333333!important;
+}
+
+#modal-button-project2 {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.git-repositories-button {
+    text-align: center;
+    font-size: 200%;
+    padding: 1px;
+    border-radius: 20rem;
+    width: 3.2rem;
+    margin-left: 1rem;
+    background-color: #00000000;
+    color: #7c2ada;
+    transition: 300ms;
+}
+
+.git-repositories-button:hover {
+    background-color: #7c2ada;
+    color: aliceblue;
+    border: aliceblue;
 }
 
 .carousel-container {
