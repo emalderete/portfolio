@@ -196,7 +196,7 @@ body {
 
 .project-text,
 .project-title {
-    color: #2b2b2b;
+    color: aliceblue;
     margin: 2.5%;
     font-family: 'League Spartan', sans-serif;
 }
@@ -216,6 +216,10 @@ body {
 
 #mini-button-project2 {
     margin-top: 14%;
+}
+
+#mini-button-project3 {
+    margin-top: 17%;
 }
 
 .cross-button-light {
@@ -323,6 +327,11 @@ body {
     height: 100%;
 }
 
+.video {
+    width: 719px;
+    height: 400px;
+}
+
 .separator {
     background: rgb(86, 86, 86);
     background: linear-gradient(90deg, rgba(86, 86, 86, 0.2442110633315826) 0%, rgba(86, 86, 86, 1) 50%, rgba(86, 86, 86, 0.15737632943802526) 100%);
@@ -338,7 +347,7 @@ body {
 }
 
 .project-cards {
-    background-color: #f0eeee;
+    background-color: #565656;
     width: 19rem;
     height: 24rem;
     margin: 3rem;

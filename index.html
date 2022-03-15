@@ -85,7 +85,16 @@
                     </a>
                 </div>
                 <div class="project-cards">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem voluptatum fugit in sed hic iste amet dignissimos animi mollitia dolor nam cum tempore aperiam, distinctio, est nemo iure ipsum facilis.</p>
+                    <a type="button" class="project" data-bs-toggle="modal" data-bs-target="#project3">
+                        <div>
+                            <img class="project-img" src="./img/image/project3-1.jpg">
+                        </div>
+                        <h4 class="project-title">Curriculum Vitae versión<br>web</h4>
+                        <div>
+                            <p class="project-text">Mi propio curriculum de experiencias laborales y estudios académicos pero en versión web.</p>
+                        </div>
+                        <p id="mini-button-project3" class="mini-button">Pulsar para más info...</p>
+                    </a>
                 </div>
             </article>
         </section>
@@ -254,18 +263,30 @@
     </div>
     <!-- Modal project 3 -->
     <div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title" id="exampleModalLabel">Curriculum Vitae 2022</h5>
+                    <button type="button" class="cross-button-light" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
                 </div>
                 <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <iframe class="video" src="https://www.youtube.com/embed/4NKTZISyB3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="modal-project-text-container">
+                        <h5 class="modal-subtitle">Descripción</h5>
+                        <div class="separator-b"></div>
+                        <p class="modal-text">
+                            Se trata de mi propio proyecto personal en el cual decidí realizar mi curriculum vitae en versión web. Tomé la decisión de hacerlo de esta forma para poder:
+                            <ol class="modal-text">
+                                <li>Demostrar mis habilidades como desarrollador en la primera impresión del CV</li>
+                                <li class="my-1">Hacer la experiencia de analizar un CV de una forma un poco más interactiva con botones que muestran diferente información.</li>
+                                <li>Por simple diversión y experiencia en un nuevo proyecto que pudiera desarrollar y poner a prueba mis habilidades.</li>
+                            </ol>
+                        </p>
+                        <div class="button-container">
+                            <a class="git-repositories-button" href="https://github.com/emalderete/curriculum_vitae" target="blank" rel="noopener noreferrer" data-bs-toggle="tooltip" title="Ver el código del proyecto en Github"><i class="fa-brands fa-github-square"></i></a>
+                            <a id="modal-button-project2" class="links-bold btn modal-page-button" href="https://curriculum-vitae2022.netlify.app/" target="blank" rel="noopener noreferrer">Sitio web</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
