@@ -27,6 +27,19 @@ function scrollingNavbarFixed() {
     }
 }
 
+function scrollingNavbarFixedSmall() {
+    navbar.classList.toggle('fixed-top', window.scrollY > 224);
+    if (window.scrollY > 224) {
+        phantomContainer.classList.remove('d-none');
+        brand.classList.add('opacity');
+        miniName.classList.remove('effect-spacing-letter');
+    } else {
+        phantomContainer.classList.add('d-none');
+        brand.classList.remove('opacity');
+        miniName.classList.add('effect-spacing-letter');
+    }
+}
+
 // La función scrollingNavbarResponse le indica a los botones del Navbar cuando y como marcar qué botón está activo
 function scrollingNavbarResponse() {
     home.classList.toggle('actived', window.scrollY >= 0 && window.scrollY < 648);
@@ -34,9 +47,14 @@ function scrollingNavbarResponse() {
     skills.classList.toggle('actived', window.scrollY >= 1384);
 }
 
+function scrollingNavbarResponseSmall() {
+    home.classList.toggle('actived', window.scrollY >= 0 && window.scrollY < 633);
+    portfolio.classList.toggle('actived', window.scrollY >= 633 && window.scrollY < 1291);
+    skills.classList.toggle('actived', window.scrollY >= 1291);
+}
+
 function activeFunctions() {
-    scrollingNavbarFixed();
-    scrollingNavbarResponse();
+    scrollingNavbarResponseMedia();
 }
 
 // Declaración y uso de funciones improvisadas para facilitar el trabajo.
@@ -55,3 +73,15 @@ function ingnoreErrors() {
 
 //showScrollOnConsole();
 //ingnoreErrors();
+
+// Declaración de funciones que trabajen en determinadas resoluciones de pantalla.
+
+function scrollingNavbarResponseMedia() {
+    if (window.matchMedia('(min-width: 1215px)').matches) {
+        scrollingNavbarFixed();
+        scrollingNavbarResponse();
+    } else {
+        scrollingNavbarFixedSmall();
+        scrollingNavbarResponseSmall();
+    }
+}

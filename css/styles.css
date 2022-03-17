@@ -117,6 +117,7 @@ body {
     color: #2b2b2b;
     padding: 1.2rem 2rem;
     margin: 0 0.5rem!important;
+    transition: 300ms;
 }
 
 .actived {
@@ -180,6 +181,12 @@ body {
     background-color: #e8ba86;
     height: 40rem;
     margin-top: 6rem;
+}
+
+.projects-container article {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 .projects-container h3 {
@@ -340,12 +347,6 @@ body {
     margin-left: 17.5%;
 }
 
-.projects-container article {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
 .project-cards {
     background-color: #565656;
     width: 19rem;
@@ -459,20 +460,31 @@ body {
     font-family: 'League Spartan', sans-serif;
     color: #565656;
     display: flex;
+    justify-content: end;
     align-items: center;
+    padding: 0 3rem;
+}
+
+.footer-top div {
+    align-items: center;
+    width: 20rem;
 }
 
 .footer-top h3 {
-    margin-left: 17rem;
+    font-size: 150%;
+    margin-right: 2rem;
+    margin-top: 0.6rem;
+    letter-spacing: 2px;
 }
 
 .footer-top a {
-    margin: 0 4rem;
     font-size: 200%;
     justify-content: center;
+    margin-right: 3rem;
 }
 
 .social {
+    margin-top: -1rem;
     width: 2.5rem;
     filter: drop-shadow(-4px 1px 6px #424242);
 }
@@ -522,4 +534,149 @@ body {
 
 .credits a:hover {
     color: #ee5700;
+}
+
+@media (max-width: 1374px) {
+    .icons {
+        font-size: 400%;
+    }
+    .icons:hover {
+        font-size: 600%;
+    }
+    .skillset div {
+        width: 8rem;
+        height: 8rem;
+        margin: 3rem 5.5rem;
+    }
+    .skills-container-inner {
+        margin: 4rem 2rem;
+        height: 35rem;
+    }
+    .subtitles {
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 1262px) {
+    .skillset div {
+        width: 8rem;
+        height: 8rem;
+        margin: 2.5rem 4rem;
+    }
+    .photo-profile {
+        width: 80%;
+        padding: 4%;
+        background-color: #b5eecd;
+    }
+    .photo-profile-container {
+        height: 13rem;
+        width: 13rem;
+        position: absolute;
+        margin-left: 25%;
+        margin-top: -8rem;
+    }
+    .navigation a {
+        border-radius: 1.3rem;
+        margin: 1.2rem 2rem;
+    }
+    .navigation a:hover {
+        padding: 1.2rem 1.5rem;
+        margin: 0 0.5rem!important;
+    }
+    .actived {
+        padding: 1.2rem 1.5rem;
+        margin: 0 0.5rem!important;
+    }
+    .name {
+        font-size: 200%;
+    }
+    .name-container {
+        margin-left: 43%;
+        padding-top: 12.5rem;
+    }
+}
+
+@media (max-width: 1215px) {
+    .project-text {
+        font-size: 90%;
+    }
+    .project-title {
+        font-size: 140%;
+    }
+    #mini-button-project3 {
+        margin-top: 24%;
+    }
+    #code-logo {
+        font-size: 1400%;
+        position: absolute;
+        color: #494949;
+    }
+    .name-container {
+        margin-left: 43%;
+        padding-top: 8.5rem;
+    }
+    .header-container-b {
+        height: 14rem;
+        width: 100%;
+        background-color: #565656;
+    }
+    .header-container-s {
+        height: 4rem;
+    }
+    .navigation {
+        display: flex;
+        justify-content: end;
+        padding-top: 0.1rem;
+        width: 100%;
+    }
+    .navigation a {
+        border-radius: 1.3rem;
+        margin: 1.2rem 1.7rem;
+        font-size: 90%;
+    }
+    .navigation a:hover {
+        padding: 1rem 1.2rem;
+        margin: 0.2rem 0.5rem!important;
+    }
+    .actived {
+        padding: 1rem 1.2rem;
+        margin: 0.2rem 0.5rem!important;
+    }
+    .code-minilogo {
+        background-color: #565656;
+        color: aliceblue;
+        padding: 1rem 0.8rem;
+        font-size: 150%;
+        border-radius: 100rem;
+        margin-top: 0.25rem;
+        margin-left: 1rem;
+    }
+    .mini-name {
+        margin: 0;
+        font-size: 170%;
+    }
+    .project-cards {
+        width: 17rem;
+        height: 22rem;
+        margin: 3rem;
+    }
+    .project-cards:hover {
+        width: 18.5rem;
+        height: 23.5rem;
+        margin-top: 2rem;
+    }
+    #mini-button-project3 {
+        margin-top: 17%;
+    }
+}
+
+@media (max-width: 1091.5px) {
+    .skillset div {
+        width: 8rem;
+        height: 8rem;
+        margin: 3rem 2rem;
+    }
+    #mini-button-project2 {
+        margin-top: 6%;
+    }
 }
