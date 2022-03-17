@@ -157,6 +157,10 @@ body {
     width: 60%;
     padding: 0 2rem;
     font-family: 'League Spartan', sans-serif;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
 }
 
 .links,
@@ -206,6 +210,13 @@ body {
     color: aliceblue;
     margin: 2.5%;
     font-family: 'League Spartan', sans-serif;
+}
+
+.project-text {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .project div img {
@@ -670,13 +681,16 @@ body {
     }
 }
 
+@media (max-width: 1124px) {
+    .project-text {
+        font-size: 89%;
+    }
+}
+
 @media (max-width: 1091.5px) {
     .skillset div {
         width: 8rem;
         height: 8rem;
         margin: 3rem 2rem;
-    }
-    #mini-button-project2 {
-        margin-top: 6%;
     }
 }
